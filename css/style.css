@@ -1,0 +1,117 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav .brand-logo {
+  font-family: 'Satisfy', cursive;
+}
+
+.nav-wrapper {
+  padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: black;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+ 
+.section-intro{
+  height: 100%;
+  width: 100%;
+}
+
+
+.header {
+  margin-top: 15%;
+}
+
+.header-subtitle {
+  margin-top: 10%;
+  font-size: 1.3em;
+}
+
+/*responsive fino a 992px */
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+}
+
+/*responsive fino a 600px */
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav-wrapper {
+  padding: 0 10px;
+  }
+/*testo cambia dimensioni fino a 600px*/
+  .page-footer {
+  font-size: 1em;
+  color: #fff;
+  }
+
+    
+}/* chiusura 600px */
+
+.col-servizio{
+  margin-top: 60px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+/*.icon-block .material-icons {
+  font-size: inherit;
+}
+*/
+.section-registrazione{
+  height: 100%;
+  width: 100%;
+}
+
+.btn-business{
+  width: center; 
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: black;
+}
+
+.social-icon {
+  font-size: 1.5em;
+  color: #fff;
+  padding: 0 10px;
+}
+
+.social-text {
+  font-size: 1.5em;
+  color: #fff;
+  
+}
+
+.social-icon:hover {
+  color: #ef3550;
+}
